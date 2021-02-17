@@ -1,0 +1,228 @@
+
+*{
+    margin: 0%;
+}
+
+
+
+
+.d-flex i{
+    padding: 10px;
+    color: black;
+}
+img, svg {
+    vertical-align: middle;
+    width: 8%;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+ /* end header */
+
+.btn{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+button.btn:hover span.arrow{
+    color: red;
+    padding-left: 10px;
+}
+.banner{
+    background-image: url(images/slide1.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-position-y: 0;
+    background-size: cover;
+    padding: 150px 0px;
+    
+    
+    /* background-position: inherit; */
+    /* min-height: 470px;  */
+    /* text-align: center; */
+}
+
+.contentbnr{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    position: relative;
+    top: 85px;
+    
+}
+
+/* end banner button shopnow */
+
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+    /* margin-top: ; */
+     margin: 0% 0%; 
+    margin-bottom: 2%;
+
+}
+.g-2, .gy-2 {
+    --bs-gutter-y: 0.5rem;
+    margin-top: 10px;
+    margin: 0% 0%
+
+}
+
+.lienlm:hover span{
+    padding-left: 10px;
+    
+}
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+/* end content */
+
+.banner2{
+    background-image: url(images/xbox.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-position-y: 0px;
+    height: 500px;
+}
+.txtbnr2{
+    margin-left: 80px;
+    display: inline-block;
+    margin-top: 70px;
+
+}
+
+/* end 2eme banner  */
+
+
+
+.text-white {
+    color: #0f0f0f!important;
+}
+.txtbanner{
+    width: 50%;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    border-radius: calc(.25rem - 1px);
+}
+
+/* end 2eme content */
+.footer{
+    background-image: url(images/carbon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+
+
+.txtfooter{
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.imgbnr{
+    max-height: 450px;
+}
+
+.txtftr{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+ .btnfooter{ 
+    background-color: gainsboro;
+    padding: 12px;
+    padding-right: 30px;
+    font-style: italic;
+    font-size: large;
+  
+ } 
+ .txtbtnf{
+     text-decoration-color: black;
+ }
+
+button.btnfooter:hover span.flesh  { 
+     padding-left: 10px; 
+    
+}
+
+.finftr{
+    
+    /* max-width: 30%; */
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+@media only screen and (max-width: 640px){
+    .txtbnr2{
+        margin-left: 30px;
+        display: inline-block;
+        margin-top: 20px;
+    
+    }
+
+
+    .txtftr{
+        margin-top: 20px;
+    }
+    .txtfooter{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .txtbnr2{
+        margin-left: 20px;
+        display: inline-block;
+        margin-top: 20px;
+    
+    }
+    .txtftr{
+        margin-top: 20px;
+    }
+    .txtfooter{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 425px){
+    .txtfooter{
+        font-size: 10px;
+    }
+    .txtbnr2{
+        font-size: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:426px){
+    .txtfooter{
+        font-size: 10px;
+    }
+    .txtbnr2{
+        font-size: 10px;
+    }
+
+
+}
